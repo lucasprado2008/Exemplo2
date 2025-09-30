@@ -37,6 +37,8 @@ button.accept-policy {
 }
 
 .footer {
+  color:black;
+  font-weight:bold;
   position: absolute;
   bottom: 0;
   width: 100%;

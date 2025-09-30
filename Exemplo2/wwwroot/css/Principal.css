@@ -7,13 +7,13 @@ header{
 }
 
 h1{
-    color:mediumpurple;
+    color:rebeccapurple;
     font-size:3rem;
     font-weight:bold;
 }
 
 h3{
-    color:plum;
+    color:mediumpurple;
     font-weight:bold;
 }
 
@@ -45,4 +45,13 @@ main{
 h4{
     font-weight:bold;
     color:lightcoral;
+}
+
+main a{
+    font-size:1.5rem;
+    background-color:antiquewhite;
+    border:solid 3px mediumpurple; 
+    color:darkslategrey;
+    border-radius:10px;
+    text-decoration:none;
 }
