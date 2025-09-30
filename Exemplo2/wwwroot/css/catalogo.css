@@ -1,0 +1,57 @@
+﻿body {
+    background-image: linear-gradient(to right, hotpink, pink, plum);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.carrossel {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.imagens {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    border: solid 3px purple;
+}
+
+.botoes {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+    border: solid 2px plum;
+}
+
+h4 {
+    font-weight: bold;
+    color: lightcoral;
+}
+
+main a {
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    border: solid 3px mediumpurple;
+    color: darkslategrey;
+    border-radius: 10px;
+    text-decoration: none;
+}
