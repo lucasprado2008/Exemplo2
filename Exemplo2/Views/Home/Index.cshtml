@@ -1,4 +1,5 @@
-﻿<link href="~/css/principal.css" rel="stylesheet" />
+﻿<link rel="stylesheet" href="~/css/Principal.css" />
+<script src="~/js/script.js"></script>
 <body>
     <header>
         <h1>Doçura da Vovó</h1>
@@ -6,6 +7,11 @@
     </header>
 
     <main>
-        <img src="" />
+        <div class="carrossel">
+            <button class="botoes" onclick="anterior()">&#60;</button>
+            <img class="imagens" id="img" src="~/img/cookies.jpg" />
+            <button class="botoes" onclick="proximo()">&#62;</button>
+        </div>
+        <h4 id="legenda">Cookie</h4>
     </main>
 </body>

@@ -1,5 +1,5 @@
 ﻿body {
-    background-color:pink;
+    background-image:linear-gradient(to right, hotpink, pink, plum);
 }
 
 header{
@@ -15,4 +15,34 @@ h1{
 h3{
     color:plum;
     font-weight:bold;
+}
+
+main{
+    margin-top:30px;
+    text-align:center;
+}
+
+.carrossel {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.imagens{
+    width:400px;
+    height:300px;
+    border-radius:30px;
+    border:solid 3px purple;
+}
+
+.botoes{
+    background-color:lightcyan;
+    color:black;
+    font-weight:bold;
+    border:solid 2px plum;
+}
+
+h4{
+    font-weight:bold;
+    color:lightcoral;
 }
