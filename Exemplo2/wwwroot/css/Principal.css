@@ -1,0 +1,18 @@
+﻿body {
+    background-color:pink;
+}
+
+header{
+    text-align:center;
+}
+
+h1{
+    color:mediumpurple;
+    font-size:3rem;
+    font-weight:bold;
+}
+
+h3{
+    color:plum;
+    font-weight:bold;
+}
